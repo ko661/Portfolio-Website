@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konain Ahsan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Konain Ahsan</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <img src="profile.jpg" alt="Konain Ahsan" class="profile-img" />
+    <h2>Hi, I'm Konain</h2>
+    <p>Graphic Designer | Software Engineering Student | Logo Artist</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate graphic designer and software engineering student from NUML.
+      I specialize in logo design and brand identity. I love turning ideas into visual art and I enjoy working with both design and code.
+    </p>
+  </section>
+
+  <!-- Logo Gallery -->
+  <section id="gallery">
+    <h2>My Logo Designs</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Evobag.png" alt="Evobag Logo">
+        <p>Evobag - Brand Identity</p>
+      </div>
+      <div class="gallery-item">
+        <img src="Globag.png" alt="Globag Logo">
+        <p>Globag - Logo Concept</p>
+      </div>
+      <!-- Add more logos here -->
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Konain Ahsan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
